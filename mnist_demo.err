@@ -1,0 +1,4 @@
+#From page 96
+1. about function tf.nn.sparse_softmax_cross_entropy_with_logits: the first parameter is labels, the second is logits the code from the book using this function in a wrong order
+
+2. line 66 to line 91 has indentation wrong would display some parameters are not define 

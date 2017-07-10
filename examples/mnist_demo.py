@@ -92,7 +92,7 @@ def train(mnist):
 
 
 def main(argv=None):
-    mnist = input_data.read_data_sets("/Users/yellowos/tensorflow_learn/1_1/mnist_data", one_hot=True)
+    mnist = input_data.read_data_sets("./mnist_data", one_hot=True)
     train(mnist)
 
 if __name__ == '__main__':
