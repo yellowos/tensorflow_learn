@@ -1,0 +1,6 @@
+1. In mnist_train.py need to import numpy as np if not the function reshape() may not work well
+
+2. In mnist_train.py the function reshape's parameter the first is the data that need to be reshape, the second
+parameter is the shape of new shape like [::], the book using (::), may not work.
+
+3. Remember to replace the xs in feed_dict with reshaped_xs
